@@ -1,0 +1,66 @@
+/*Google Fonts Open Sans Link */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans' sans-serif ;
+        }
+
+
+        body
+        {
+            width: 100%;
+            height: 100vh;
+            background: url(/IMG/equipo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        h1
+        {
+            text-align: center;
+        }
+
+        .tftable
+        {
+            background: transparent;
+            transition: .3s;
+            position: absolute;
+            top: 27%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 1;
+            color: rgb(3, 3, 3);
+            border-radius: 0%;
+        }
+        .tftable th
+        {
+            font: size 20px;
+            background-color:transparent;
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color:  rgb(3, 3, 3);
+            text-align:center;
+        }
+        .tftable tr
+        {
+            border-color: black;
+        }
+        .tftable td
+        {
+            font-size:14px;
+            border-width: 1px;
+            padding: 10px;
+            border: solid 1px black;
+        }
+        .tftable tr:hover
+        {
+            background-color: rgb(253, 253, 253);
+        }
