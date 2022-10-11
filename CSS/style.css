@@ -15,17 +15,17 @@
         {
             width: 100%;
             height: 100vh;
-            background: url(/IMG/equipo.png);
-            background-size: cover;
+            background: url(/IMG/fondo.png);
+            background-size: none;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: left;
         }
 
         caption
         {
             text-align: center;
             font-size:45px;
-            line-height: 50px;
+            line-height: 70px;
         }
 
         .tftable
@@ -33,19 +33,21 @@
             background: transparent;
             transition: .3s;
             position: absolute;
-            top: 27%;
-            left: 49%;
+            top: 45%;
+            left: 68%;
             transform: translate(-50%, -50%);
             text-align: center;
             z-index: 1;
             color: rgb(3, 3, 3);
             border-radius: 0%;
+            width: 50%;
+            height: 20%;
         }
         .tftable th
         {
-            font: size 20px;
-            background-color:transparent;
-            border-width: 1px;
+            font: size 70px;
+            background-color:rgb(139, 179, 212);
+            border-width: 2px;
             padding: 8px;
             border-style: solid;
             border-color:  rgb(3, 3, 3);
@@ -57,12 +59,21 @@
         }
         .tftable td
         {
-            font-size:14px;
+            font-size:16px;
             border-width: 1px;
             padding: 10px;
             border: solid 1px black;
         }
         .tftable tr:hover
         {
-            background-color: rgb(253, 253, 253);
+            background-color: rgb(172, 239, 248);
+        }
+
+        .tftable tr:nth-child(even) 
+        {
+            background-color: #eee;
+        }
+         .tftable tr:nth-child(odd) 
+        {
+            background-color:#dce8f8;
         }
