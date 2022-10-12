@@ -9,7 +9,7 @@
             position: fixed;
             width: 200px;
             height: 100%;
-            background: rgb(12, 12, 12);
+            background: rgb(68, 145, 247);
             left: -200px;
             transition: all 500ms linear;
         }
@@ -21,9 +21,9 @@
 
         #sidebar ul, li
         {
-            color: rgba(230, 230, 230, .9);
+            color: rgba(7, 7, 7, 0.9);
             text-align: center;
-            border-bottom: 1px solid rgba(100, 100, 100, .3);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.692);
             padding: 15px 10px;
             list-style: none;
         }
